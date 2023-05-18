@@ -19,13 +19,13 @@ button.addEventListener ('click', function () {
     console.log (parseInt(age_passenger));
 
     if ((age_passenger) <= 17){
-        document.getElementById('price_tiket').innerHTML += `${(km_travel * price_minors).toFixed(2)}` + "€";
+        document.getElementById('price_tiket').innerHTML = `${(km_travel * price_minors).toFixed(2)}` + "€";
 
     } else if ((age_passenger >= 18) && (age_passenger < 65)){ 
-        document.getElementById('price_tiket').innerHTML += `${(km_travel * price_km).toFixed(2)}` + "€";
+        document.getElementById('price_tiket').innerHTML = `${(km_travel * price_km).toFixed(2)}` + "€";
 
     }else if (age_passenger >= 65){
-        document.getElementById('price_tiket').innerHTML += `${(km_travel * price_over).toFixed(2)}` + "€";
+        document.getElementById('price_tiket').innerHTML = `${(km_travel * price_over).toFixed(2)}` + "€";
     }
 });
 

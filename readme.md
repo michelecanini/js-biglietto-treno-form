@@ -13,8 +13,16 @@ MILESTONE 1
 9 - create a variable for the price over65 (-40%)<br>
 10 - create a conditional statement with the full price and the 2 discount prices<br>
 11 - insert method toFixed with 2 decimal numbers<br>
-12 - control effect debug output in the console (end)
+12 - control effect debug output in the console
 
 MILESTONE 2
 
-13- in progress...
+13 - creation of a form for data entry<br>
+14 - insert of the name end lastname field<br> 
+15 - insert select age field<br>
+16 - insert button "Annulla"<br>
+17 - insert section "dettaglio passeggeri"<br>
+18 - insert section "offerta"<br>
+19 - insert section "carrozza"<br>
+20 - insert section "codice CP"<br>
+21 - insert section "costo del biglietto" (end)
