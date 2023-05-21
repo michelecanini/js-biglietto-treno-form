@@ -20,22 +20,31 @@
         <main>
             <div class="container">
                 <div class="row">
+                    <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
                     <div class="col-md-4">
-                        Inserisci i km da percorrere: <input type="text" name="km_travel" id="km_travel"><br>
+                        Inserisci Nome e Cognome <input type="text" name="km_travel" id="name_complete" placeholder="nome e cognome"><br>
                     </div>
                     <div class="col-md-4">
-                        Inserisci l'età del passeggero: <input type="text" name="age_passenger" id="age_passenger" value=""><br>
+                        Inserisci i km da percorrere <input type="text" name="km_travel" id="km_travel" placeholder="km da percorrere"><br>
+                    </div>
+                    <div class="col-md-4">
+                        Età del passeggero:
+                        <select name="age_passenger" id="age_passenger">
+                            <option value="0">maggiorenne</option>
+                            <option value="1">minorenne</option>
+                            <option value="2">over65</option>
+                        </select>
                     </div>
                     <div class="col-md-4">
                         <button id="submit">Genera</button><br><br>
-                        <span>Prezzo Biglietto </span><span id="price_tiket"></span>
                     </div>
+                    <span id="price_tiket"></span>
                 </div>
             </div>
         </main>
         <!--end main-->
 
         <!--javascript-->
-        <script src="./js/script.js"></script>
+        <script type="text/javascript" src="./js/script.js"></script>
     </body>
 </html>

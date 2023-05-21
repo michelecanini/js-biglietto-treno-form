@@ -21,7 +21,7 @@ MILESTONE 1
     15.1 : ELSE - Go ahead<br>
 16 - IF - age is > 65 apply price discount -40%<br>
     16.1 : ELSE - Go ahead<br>
-17 - create a button "Genera" for the user (input)
+17 - create a button "Genera" for the user (input)<br>
 18 - print price with only 2 decimal numbers (toFixed)
 
 MILESTONE 2
