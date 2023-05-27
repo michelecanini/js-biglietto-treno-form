@@ -20,20 +20,29 @@ button.addEventListener ('click', function () {
     let price_tiket = km_travel * price_km;
     let message = '';
 
-    if(age_passenger === 0){
-        message += `${(price_tiket.toFixed(2))}€  tariffa standard`;
-    }
-    else if(age_passenger === 1){
-        message += `${(km_travel * price_minors).toFixed(2)}€  hai ricevuto uno sconto del 20%`;
+    if(isNaN(km_travel) === false){
+        if(age_passenger === 0){
+            message += `${(price_tiket.toFixed(2))}€  tariffa standard`;
+        }
+        else if(age_passenger === 1){
+            message += `${(km_travel * price_minors).toFixed(2)}€  hai ricevuto uno sconto del 20%`;
+        }
+        else{
+            message += `${(km_travel * price_over).toFixed(2)}€  hai ricevuto uno sconto del 40%`;
+        }
     }
     else{
-        message += `${(km_travel * price_over).toFixed(2)}€  hai ricevuto uno sconto del 40%`;
-        console.log(km_travel * price_over.toFixed(2));
+        message += 'Inserire dei valori validi';
     }
+
     document.getElementById('price_tiket').innerText = message;
 
     // VARIABILE ED INSERIMENTO NOME E COGNOME PASSEGGERO
     let name_complete = document.getElementById('name_complete').value;
     document.getElementById('hello_user').innerHTML = `${name_complete}`;
+
+    // VARIABILE ED INSERIMENTO OFFERTA
+    let offert = document.getElementById('offert').value;
+    document.getElementById('offert_user').innerHTML = `${name_complete}`;
     
 });
