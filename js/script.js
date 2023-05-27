@@ -26,7 +26,7 @@ button.addEventListener ('click', function () {
     // IF CONTENITORE CON ISNAN PER FAR INSERIRE ALL'UTENTE VALORI VALIDI
     if(isNaN(km_travel) === false){
 
-        // IF CALCOLO DEI VALORI DALLA SELECT
+        // IF CALCOLO DEI VALORI DALLA SELECT CON TRIFFE E OFFERTE
         if(age_passenger === 0){
             message += `${(price_tiket.toFixed(2))}€  tariffa standard`;
         }
@@ -47,9 +47,9 @@ button.addEventListener ('click', function () {
     let name_complete = document.getElementById('name_complete').value;
     document.getElementById('hello_user').innerHTML = `${name_complete}`;
 
-    // VARIABILE ED INSERIMENTO CARROZZA RANDOM
+    // INSERIMENTO CARROZZA RANDOM
     document.getElementById('carrozza_random').innerHTML = `N. ${Math.floor(Math.random() * 10) + 1}`;
 
-    // VARIABILE ED INSERIMENTO CAP RANDOM
+    // INSERIMENTO CAP RANDOM
     document.getElementById('cp_random').innerHTML = `${Math.floor(Math.random() * 99999) + 1}`;
 });
