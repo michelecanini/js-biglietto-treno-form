@@ -25,15 +25,15 @@
     18. stampa a video il prezzo con soli due decimali (toFixed)
 
 ### Milestone 2
-    13. Creazione e stilizzazione di un form con input per i dati in entrata
-    14. Inserimento di una select per la richiesta dell'età
-        14.1 Se maggiorenne valore 0
-        14.2 Se minorenne valore 1
-        14.3 Se Over 65 enne valore 2
-    15. Inserimento del pulsante "Annulla"
-    16. Inserimento della sezione "Dettagli Passeggeri"
-    17. Inserimento della sezione "Offerta"
-    18. Inserimento della sezione "Carrozza" con numero randomico
-    19. Inserimento della sezione "Codice CP" con numero randomico
-    20. Inserimento della sezione "Costo del Biglietto"
-    21. Stilizzazione CSS 
+    1. Creazione e stilizzazione di un form con input per i dati in entrata
+    2. Inserimento di una select per la richiesta dell'età
+        2.1 Se maggiorenne valore 0
+        2.2 Se minorenne valore 1
+        2.3 Se Over 65 enne valore 2
+    3. Inserimento del pulsante "Annulla"
+    4. Inserimento della sezione "Dettagli Passeggeri"
+    5. Inserimento della sezione "Offerta"
+    6. Inserimento della sezione "Carrozza" con numero randomico
+    7. Inserimento della sezione "Codice CP" con numero randomico
+    8. Inserimento della sezione "Costo del Biglietto"
+    9. Stilizzazione CSS 
