@@ -21,13 +21,13 @@ button.addEventListener ('click', function () {
     let message = '';
 
     if(age_passenger === 0){
-        message += `Il prezzo del biglietto è di: ${(price_tiket.toFixed(2))}€`;
+        message += `${(price_tiket.toFixed(2))}€  tariffa standard`;
     }
     else if(age_passenger === 1){
-        message += `Hai ricevuto uno sconto del 20%, il prezzo del biglietto è di: ${(km_travel * price_minors).toFixed(2)}€`;
+        message += `${(km_travel * price_minors).toFixed(2)}€  hai ricevuto uno sconto del 20%`;
     }
     else{
-        message += `Hai ricevuto uno sconto del 40%, il prezzo del biglietto è di: ${(km_travel * price_over).toFixed(2)}€`;
+        message += `${(km_travel * price_over).toFixed(2)}€  hai ricevuto uno sconto del 40%`;
         console.log(km_travel * price_over.toFixed(2));
     }
     document.getElementById('price_tiket').innerText = message;

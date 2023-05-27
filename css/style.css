@@ -49,6 +49,9 @@ button{
     border-radius: 20px;
     font-weight: bold;
     display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 25px;
 }
 
 .refresh_btn{
