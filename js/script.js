@@ -17,10 +17,16 @@ button.addEventListener ('click', function () {
     let km_travel = parseInt(document.getElementById('km_travel').value);
     let age_passenger = parseInt(document.getElementById('age_passenger').value);
 
+    // CALCOLO PREZZO DEL BIGLIETTO
     let price_tiket = km_travel * price_km;
+
+    // VARIABILE MESSAGGIO A STRINGA VUOTA
     let message = '';
 
+    // IF CONTENITORE CON ISNAN PER FAR INSERIRE ALL'UTENTE VALORI VALIDI
     if(isNaN(km_travel) === false){
+
+        // IF CALCOLO DEI VALORI DALLA SELECT
         if(age_passenger === 0){
             message += `${(price_tiket.toFixed(2))}€  tariffa standard`;
         }
@@ -31,8 +37,8 @@ button.addEventListener ('click', function () {
             message += `${(km_travel * price_over).toFixed(2)}€  hai ricevuto uno sconto del 40%`;
         }
     }
-    else{
-        message += 'Inserire dei valori validi';
+    else{ // MESSAGGIO DI ERRORE
+        message +='Inserire dei valori validi';
     }
 
     document.getElementById('price_tiket').innerText = message;
@@ -41,8 +47,9 @@ button.addEventListener ('click', function () {
     let name_complete = document.getElementById('name_complete').value;
     document.getElementById('hello_user').innerHTML = `${name_complete}`;
 
-    // VARIABILE ED INSERIMENTO OFFERTA
-    let offert = document.getElementById('offert').value;
-    document.getElementById('offert_user').innerHTML = `${name_complete}`;
-    
+    // VARIABILE ED INSERIMENTO CARROZZA RANDOM
+    document.getElementById('carrozza_random').innerHTML = `N. ${Math.floor(Math.random() * 10) + 1}`;
+
+    // VARIABILE ED INSERIMENTO CAP RANDOM
+    document.getElementById('cp_random').innerHTML = `${Math.floor(Math.random() * 99999) + 1}`;
 });

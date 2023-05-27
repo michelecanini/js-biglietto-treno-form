@@ -28,8 +28,7 @@
     1. Stilizzazione di un form con input per i dati in entrata
     2. Stilizzazione di una select per la richiesta dell'età
     3. Inserimento e stilizzazione del pulsante "Annulla"
-    4. Inserimento e stilizzazione della sezione "Dettagli Passeggeri"
-    5. Inserimento e stilizzazione della sezione "Offerta"
+    4. Inserimento e stilizzazione della sezione "Nome Passeggero"
     6. Inserimento e stilizzazione della sezione "Carrozza" con numero randomico
     7. Inserimento e stilizzazione della sezione "Codice CP" con numero randomico
     8. Inserimento e stilizzazione della sezione "Costo del Biglietto"
