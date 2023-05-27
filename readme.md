@@ -11,7 +11,7 @@
     7. chiedi all'utente l'età del passeggero (input)
     8. crea una variabile
     9. inserisci dei control.log e controlla il debug
-    10. crea una variabile per il perzzo ai minori (scontato -20%)
+    10. crea una variabile per il prezzo ai minori (scontato -20%)
     11. crea una costante per il prezzo al km (maggiorenni)
     12. crea una variabile per il prezzo agli Over65 (scontato -40%)
     13. crea una if interna alla variabile con il controllo dei valori
