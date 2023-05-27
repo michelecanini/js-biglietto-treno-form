@@ -34,3 +34,23 @@ main{
 .text_white{
     color: white;
 }
+
+input, select{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 2px solid #007bff;
+}
+
+button{
+    background-color: #007bff;
+    padding: 5px 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.refresh_btn{
+    background-color: red;
+}
