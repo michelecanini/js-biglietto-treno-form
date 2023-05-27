@@ -6,3 +6,27 @@ GENERAL SETTINGS
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #1a1a1a;
+}
+
+main{
+    height: 100vh;
+}
+
+.title h1{
+    text-align: center;
+    padding-top: 50px;
+    color: #007bff;
+}
+
+.text_cont{
+    color: #007bff;
+}
+
+.c_boot{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 50px;
+}

@@ -1,37 +1,35 @@
-PROBLEM: CREATE A PROGRAM END FORM FOR CALCULATING THE PRICE OF A TRAIN TIKET WITH SPECIFIC CHARACTERIST
+# PROBLEM: CREATE A PROGRAM END FORM FOR CALCULATING THE PRICE OF A TRAIN TIKET WITH SPECIFIC CHARACTERIST
 
-MILESTONE 1
+### Milestone 1
+    1. chiedi all'utente di inserire il nome del passeggero (input)
+    2. crea una variabile
+    3. chiedi all'utente di inserire il cognome del passeggero (input)
+    4. crea una variabile
+    5. chiedi all'utente il numero di km del viaggio (input)
+    6. crea una variabile
+    7. chiedi all'utente l'età del passeggero (input)
+    8. crea una variabile
+    9. inserisci dei control.log e controlla il debug
+    10. crea una variabile per il perzzo ai minori (scontato -20%)
+    11. crea una costante per il prezzo al km (maggiorenni)
+    12. crea una variabile per il prezzo agli Over65 (scontato -40%)
+    13. crea una if interna alla variabile con il controllo dei valori
+    14. ? SE - l'età è >=18 && <= 65 (valore di controllo 0)
+        14.1 applica il prezzo standard per km
+    15. : ALTRIMENTI ? SE - l'età è <= 17 anni (valore di controllo 1)
+        15.1 applica il prezzo per i minori scontato del 20%
+    16. : ALTRIMENTI con una età > 65 anni (valore di controllo 2) 
+        16.1 applica il prezzo scontato del 40%
+    17. crea un bottone "Genera" per l'inserimento dati utente (input)
+    18. stampa a video il prezzo con soli due decimali (toFixed)
 
-1 - ask the user for the name passenger (input)<br>
-2 - create a variable<br>
-3 - ask the user the lastname of the passenger (input)<br>
-4 - create a variable<br>
-5 - ask the user for the number of kilometers to travel (input)<br>
-6 - create a variable<br>
-7 - ask the user the age of the passenger (input)<br>
-8 - create a variable<br>
-9 - effect debug in the console<br>
-10 - create a variable for the price minors (-20%)<br>
-11 - create a variable for the price per km of tiket<br>
-12 - create a variable for the price over65 (-40%)<br>
-13 - create a conditional statement with the full price and the 2 discount prices<br>
-14 - IF - age is <= 17 apply price discount -20%<br>
-    14.1 : ELSE - Go ahead<br>
-15 - IF - age is >=18 && <= 65 apply price per km of tiket<br>
-    15.1 : ELSE - Go ahead<br>
-16 - IF - age is > 65 apply price discount -40%<br>
-    16.1 : ELSE - Go ahead<br>
-17 - create a button "Genera" for the user (input)<br>
-18 - print price with only 2 decimal numbers (toFixed)
-
-MILESTONE 2
-
-13 - creation of a form for data entry<br>
-14 - insert of the name end lastname field<br> 
-15 - insert select age field<br>
-16 - insert button "Annulla"<br>
-17 - insert section "dettaglio passeggeri"<br>
-18 - insert section "offerta"<br>
-19 - insert section "carrozza"<br>
-20 - insert section "codice CP"<br>
-21 - insert section "costo del biglietto" (end)
+### Milestone 2
+    13. creation of a form for data entry
+    14. insert of the name end lastname field 
+    15. insert select age field
+    16. insert button "Annulla"
+    17. insert section "dettaglio passeggeri"
+    18. insert section "offerta"
+    19. insert section "carrozza"
+    20. insert section "codice CP"
+    21. insert section "costo del biglietto" (end)
