@@ -1,4 +1,5 @@
-# PROBLEM: CREATE A PROGRAM END FORM FOR CALCULATING THE PRICE OF A TRAIN TIKET WITH SPECIFIC CHARACTERIST
+# CALCOLO DEL PREZZO DEL BIGLIETTO DEL TRENO
+## PROBLEMA: Crea un programma per calcolare il prezzo del biglietto del treno con determinate caratteristiche.
 
 ### Milestone 1
     1. chiedi all'utente di inserire il nome del passeggero (input)
@@ -24,12 +25,15 @@
     18. stampa a video il prezzo con soli due decimali (toFixed)
 
 ### Milestone 2
-    13. creation of a form for data entry
-    14. insert of the name end lastname field 
-    15. insert select age field
-    16. insert button "Annulla"
-    17. insert section "dettaglio passeggeri"
-    18. insert section "offerta"
-    19. insert section "carrozza"
-    20. insert section "codice CP"
-    21. insert section "costo del biglietto" (end)
+    13. Creazione e stilizzazione di un form con input per i dati in entrata
+    14. Inserimento di una select per la richiesta dell'età
+        14.1 Se maggiorenne valore 0
+        14.2 Se minorenne valore 1
+        14.3 Se Over 65 enne valore 2
+    15. Inserimento del pulsante "Annulla"
+    16. Inserimento della sezione "Dettagli Passeggeri"
+    17. Inserimento della sezione "Offerta"
+    18. Inserimento della sezione "Carrozza" con numero randomico
+    19. Inserimento della sezione "Codice CP" con numero randomico
+    20. Inserimento della sezione "Costo del Biglietto"
+    21. Stilizzazione CSS 
